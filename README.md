@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in TypeScript related to array comparison. The `compareArrays` function, while seemingly correct for arrays of equal length, fails when comparing arrays of differing lengths. The solution provided addresses this by explicitly checking for length discrepancies before element-wise comparison, making the function robust.
